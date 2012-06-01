@@ -1,0 +1,19 @@
+<%= render 'shared/header' %>
+
+<div id="contact-content">
+<h1>Contact Us</h1><br>
+<h2>Paperwhite</h2>
+<p>New York Corporate Office<br>
+The Apparel Group Ltd.<br>
+469 7th Avenue, 8th Floor<br>
+New York, NY 10018<br> 
+<%= link_to "Map it!", "https://maps.google.com/maps?q=469+7th+Avenue+8th+Floor+New+York,+NY+10018&hnear=469+7th+Ave,+New+York,+10018&gl=us&t=m&z=16"  %>
+</p>
+
+<br>
+<p>Customer Service & Product Info</p>
+<h2>1.800.223.6034</h2>
+<h2>212.328.1200</h2><br>
+<p><%= mail_to "info@paperwhitecollection.com"  , "info@paperwhitecollection.com", id:"mail"%></p><br>
+<%= render 'shared/social-buttons' %>
+</div>

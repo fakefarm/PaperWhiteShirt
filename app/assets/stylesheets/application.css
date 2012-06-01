@@ -52,14 +52,20 @@ nav a{
 	font-weight: 300;
 	color: white;}
 
+a{
+	color: #8C009D;
+}
+h1{
+	font-size: 1.5em;
+	font-weight: normal; }
 
+h2{
+	font-size: 1.2em;
+	font-weight: normal; }
 
-/* -- Header ------------------------------
--------------------------------------------*/
-
-
-/* -- Home ------------------------------
--------------------------------------------*/
+h3{	
+	font-size: 1.1em;
+	font-weight: normal; }
 
 .landing{
 	background: url(home2.jpg) no-repeat center center fixed;
@@ -76,3 +82,34 @@ nav a{
 	-o-background-size: cover;
 	background-size: cover;
 }
+
+#about-content{
+	width: 32%;
+	background: rgba(255,255,255,.5);
+	margin-left: 47%;
+	margin-bottom:80px;
+	padding: 1%;
+	box-shadow: 0 2px 3px rgba(0,0,0,.2);
+}
+
+#about-content p{
+line-height: 25px;
+text-align: justify;}
+
+.contact{
+	background: url(contact.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
+}
+
+#contact-content{
+	width: 26%;
+	background: rgba(255,255,255,.5);
+	margin-left: 55%;
+	line-height: 25px;
+	padding: 1%;
+	box-shadow: 0 2px 3px rgba(0,0,0,.2);	
+}
+
