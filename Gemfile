@@ -11,7 +11,7 @@ group :production do
 end
 
 group :developement do
-gem 'sqlite3'
+gem sqlite3 -v '1.3.6'`
 end
 
 # Gems used only for assets and not required
