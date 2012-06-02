@@ -21,7 +21,10 @@
 	font-family: 'Quicksand', sans-serif;
 	font-weight: book;
 	text-decoration: none;
-	list-style: none; }
+	list-style: none; 
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	}
 
 #container{
 	width: 80%;
@@ -45,7 +48,9 @@ nav{
 	width: 120px;
 	line-height:40px;
 	padding: 20px;
-	box-shadow: 1px 1px 3px black;}
+	box-shadow: 1px 1px 3px black;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	border-radius: 0px 0px 0px 0px;}
 	
 nav a{
 	font-size: 1.1em;
@@ -113,3 +118,25 @@ text-align: justify;}
 	box-shadow: 0 2px 3px rgba(0,0,0,.2);	
 }
 
+.press{
+	background: url(press.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;		
+}
+
+#press-content{
+	width: 60%;
+	background: rgba(255,255,255,.5);
+	margin-left: 15%;
+	line-height: 25px;
+	padding: 1%;
+	box-shadow: 0 2px 3px rgba(0,0,0,.2);	
+	text-align: justify;
+}
+
+#articles{
+	width: 100%;
+	margin: 0 auto;
+}
