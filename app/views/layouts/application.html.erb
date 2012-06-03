@@ -5,13 +5,14 @@
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= csrf_meta_tags %>
   <link href='http://fonts.googleapis.com/css?family=Quicksand:300,400,700' rel='stylesheet' type='text/css'>
+  <%= render 'shared/analytics' %>
 </head>
 <body class="<%= action_name %>">
 <%= render 'shared/social' %> 
   
 <section id="container">
 
-  <%= link_to image_tag("logo.png", id:"logo"), "http://localhost:3000" %>
+  <%= link_to image_tag("logo.png", id:"logo"), root_path %>
   
 <%= yield %>
 </section>
