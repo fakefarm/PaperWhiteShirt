@@ -30,10 +30,12 @@
 	width: 80%;
 	margin: 0 auto; 
 	overflow:auto;
-	min-width: 800px;}
+	min-width: 900px;}
 
 #logo{
-	padding: 10px;}
+	padding: 10px;
+	width: 200px;
+	}
 
 nav{
 	float: right;
@@ -157,3 +159,22 @@ text-align: justify;}
 	padding: 1%;
 	box-shadow: 0 2px 3px rgba(0,0,0,.2);
 }
+
+.designer{
+	background: url(designer.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;		
+}
+	
+	
+#designer-content{
+	line-height: 25px;
+	width: 41%;
+	background: rgba(255,255,255,.5);
+	margin-left: 39%;
+	margin-bottom:80px;
+	padding: 1%;
+	box-shadow: 0 2px 3px rgba(0,0,0,.3);	
+	}

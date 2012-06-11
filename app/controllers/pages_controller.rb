@@ -3,6 +3,9 @@ class PagesController < ApplicationController
 	def landing
 	end
 	
+	def designer		
+	end
+	
 	def about
 	end
 	
@@ -19,6 +22,9 @@ class PagesController < ApplicationController
 	end
 	
 	def fall_2012
+	end
+	
+	def designer		
 	end
 	
 end
