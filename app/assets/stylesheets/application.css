@@ -242,3 +242,92 @@ margin: -5px 10px 0 0;
 	padding: 1%;
 	box-shadow: 0 2px 3px rgba(0,0,0,.3);	
 }
+
+/* Fall 2012 collection */
+.collection{
+	background-image:url("brushed.png");
+}
+
+.fall-collage{
+	width: 660px;
+	margin: 0 0 0 50px;
+	position: relative;
+	height: 950px;
+}
+
+.fall-collage img{ 
+	-webkit-border-radius: 0px 0px 0px 0px;
+	border-radius: 0px 0px 0px 0px;
+	box-shadow: 0 1px 3px gray;
+}
+
+img.c1r1{
+	float:left; 
+	position: absolute;
+	left: 0;
+	width: 180px;
+}
+img.c1r2 {
+	position: absolute;
+	left: 0;
+	top: 282px;
+	width: 180px;
+}
+img.c1r3 {
+	position: absolute;
+	left: 0;
+	top: 567px;
+	width: 180px;
+}
+img.c1r4 {
+	position: absolute;
+	left: 0;
+	top: 701px;
+	width: 180px;
+}
+img.c2r1{
+	position: absolute;
+	left: 190px;
+	width: 220px;
+	top: 0;
+}
+img.c2r21{
+	position: absolute;
+	left: 190px;
+	top: 203px;
+	width: 105px;
+}
+img.c2r22{
+	position: absolute;
+	left: 305px;
+	top: 203px;
+	width: 105px;
+}
+img.c2r3{
+	position: absolute;
+	left: 190px;
+	top: 550px;
+	width: 220px;	
+}
+img.c3r1{
+	position: absolute;
+	left: 420px;
+	width: 110px;
+}
+img.c3r11{
+	position: absolute;
+	left: 537px;
+	width: 111px;
+}  
+img.c3r2{
+	position: absolute;
+	left: 420px;
+	top: 293px;
+	width: 230px;
+}
+img.c3r3{
+	position: absolute;
+	left: 420px;
+	top: 605px;
+	width: 230px;
+}   

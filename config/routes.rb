@@ -5,7 +5,7 @@ PaperwhiteApp::Application.routes.draw do
 	match "/contact" => "pages#contact"
 	match "/press" => "pages#press"
 	match "/stores" => "pages#stores"
-	match "/fall-2012" => "pages#fall_2012"
+	match "/fall-2012" => "fall2012#collection"
 	match "/spring-2012" => "pages#spring_2012"
 	match	"/designer" => "pages#designer"
 	
