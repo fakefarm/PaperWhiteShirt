@@ -1,7 +1,10 @@
 ---
 about.jpg: about-9f1a541017f58fcc4974f103e8972f33.jpg
+apparel.png: apparel-e538fe1c898eb167af94c5ea6316d5a9.png
 articles.jpg: articles-2386ca5a4ae2697adaaef3f560991641.jpg
 contact.jpg: contact-c5c9a3f7d0f05bf7a22fa456bf7d7db2.jpg
+coverpage.gif: coverpage-8324bbc5890d63c6d5d9b3041c0f3790.gif
+coverpage.png: coverpage-e08cad7e3d19e3e96b9dd50f827d5295.png
 designer.jpg: designer-f97e86f1fa45cbc8fb8f147ba90e7a02.jpg
 home.jpg: home-9b8f85339d903c84599879c1bfb0e053.jpg
 home2.jpg: home2-3dfd1a355d7ee488f15a203377363757.jpg
@@ -11,4 +14,4 @@ press.jpg: press-4f3f490d57bad46db9644cf8bc23c242.jpg
 rails.png: rails-be8732dac73d845ac5b142c8fb5f9fb0.png
 stores.jpg: stores-5c2f9e17189c739ca1ddd43a5181b140.jpg
 twitter.png: twitter-8ddcb69aa4f915ea4ca3bf2f99335c69.png
-application.css: application-e0451b6e8cb8dd2a4294ecdf6414d527.css
+application.css: application-cd12fc89cedb8be18388c814c18f0cde.css
