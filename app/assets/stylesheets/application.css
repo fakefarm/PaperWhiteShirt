@@ -243,43 +243,59 @@ margin: -5px 10px 0 0;
 	box-shadow: 0 2px 3px rgba(0,0,0,.3);	
 }
 
+/* Global Product Items */
+
+.product-content{
+width: 270px;
+margin: 0 0 0 10px;
+}
+
+.social-buttons{
+	border: 1px solid white;
+	padding: 7px 0 7px 7px;
+	background: rgba(255,255,255,.3);
+	width: 143px;
+	margin: 10px 0 10px 0;
+}
+
+.fb-like{
+	margin: 0 0 5px 0;
+}
+
 /* Fall 2012 collection */
 .collection{
 	background-image:url("brushed.png");
 }
-
 .fall-collage{
 	width: 660px;
 	margin: 0 0 0 50px;
 	position: relative;
 	height: 950px;
 }
-
 .fall-collage img{ 
 	-webkit-border-radius: 0px 0px 0px 0px;
 	border-radius: 0px 0px 0px 0px;
 	box-shadow: 0 1px 3px gray;
 }
-
 img.c1r1{
 	float:left; 
 	position: absolute;
 	left: 0;
 	width: 180px;
 }
-img.c1r2 {
+img.c1r2{
 	position: absolute;
 	left: 0;
 	top: 282px;
 	width: 180px;
 }
-img.c1r3 {
+img.c1r3{
 	position: absolute;
 	left: 0;
 	top: 567px;
 	width: 180px;
 }
-img.c1r4 {
+img.c1r4{
 	position: absolute;
 	left: 0;
 	top: 701px;
@@ -331,3 +347,122 @@ img.c3r3{
 	top: 605px;
 	width: 230px;
 }   
+
+/* Fall Items */
+
+.drape_front_jacket{
+	background: url(F12_Waterfall-Drape-Front-Jacket.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;		
+}
+
+.drape-jacket{
+	width: 28%;
+	background: rgba(255,255,255,.5);
+	margin-top: 100px;
+	margin-left: 46%;
+	padding: 2%;
+	box-shadow: 0 2px 3px rgba(0,0,0,.2);
+	line-height: 25px;
+}
+
+.faux_leather_blazer{
+	background: url(F12_Faux_Leather_Blazer.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;		
+}
+
+.faux-leather{
+	width: 28%;
+	background: rgba(255,255,255,.5);
+	margin-top: 100px;
+	margin-left: 46%;
+	padding: 2%;
+	box-shadow: 0 2px 3px rgba(0,0,0,.2);
+	line-height: 25px;
+}
+
+.printed_jacket{
+	background: url(F12_printed_jacket.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+	
+.tuxedo_blazer{
+	background: url(F12_tuxedo_blazer.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+	
+.fitted_denim_jacket{
+	background: url(F12_fitted_denim_jacket.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.faux_leather_motorcycle_jacket{
+	background: url(F12_faux_leather_motorcycle.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.sequined_top_riding_pant{
+	background: url(F12_sequined_top_riding_pant.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+	
+.embroidered_plaid_shirt{
+	background: url(F12_emb_plaid_shirt2.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.stripe_blouse_wide_leg_pant{
+	background: url(F12_stripe_blouse_wide_leg_pant.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+	
+.printed_knit_top_pleated_skirt{
+	background: url(F12_printed_knit_top_pleated_skirt.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+	
+.novelty_blouse_printed_pant{
+	background: url(F12_novelty_blouse_printed_pant.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+	
+.novelty_pleat_shirt{
+	background: url(F12_novelty_pleat_shirt.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
