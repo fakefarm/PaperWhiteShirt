@@ -11,6 +11,9 @@ class Fall2012Controller < ApplicationController
 	def printed_jacket
 	end
 		
+	def ls_printed_shirt
+	end
+	
 	def tuxedo_blazer
 	end
 		

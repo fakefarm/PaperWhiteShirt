@@ -21,6 +21,7 @@ PaperwhiteApp::Application.routes.draw do
 	match "printed-knit-top-pleated-skirt" =>	"fall2012#printed_knit_top_pleated_skirt"
 	match "novelty-blouse-printed-pant" =>	"fall2012#novelty_blouse_printed_pant"
 	match "novelty-pleat-shirt" =>	"fall2012#novelty_pleat_shirt"
+	match "ls-printed-shirt" => "fall2012#ls_printed_shirt"
 	
 	
 	match "spring-2012" 												=> "spring2012#spring_collection"

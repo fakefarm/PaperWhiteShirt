@@ -369,7 +369,13 @@ img.c3r2{
 img.c3r3{
 	position: absolute;
 	left: 420px;
-	top: 605px;
+	top: 435px;
+	width: 230px;
+}
+img.c3r4{
+	position: absolute;
+	left: 420px;
+	top: 602px;
 	width: 230px;
 }   
 
@@ -475,6 +481,13 @@ img.c3r3{
 	
 .novelty_pleat_shirt{
 	background: url(F12_novelty_pleat_shirt.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.ls_printed_shirt{
+	background: url(F12_LS_printed_shirt.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
