@@ -36,6 +36,8 @@
 }
 
 nav{
+	-webkit-border-radius: 0;
+	border-radius: 0;
 	float: right;
 	background: #54595b; /* Old browsers */
 	background: -moz-linear-gradient(top,  #54595b 0%, #28343b 100%); /* FF3.6+ */
@@ -49,8 +51,6 @@ nav{
 	line-height:40px;
 	padding: 20px;
 	box-shadow: 1px 1px 3px black;
-	-webkit-border-radius: 0px 0px 0px 0px;
-	border-radius: 0px 0px 0px 0px;
 }
 	
 nav a{
@@ -114,7 +114,7 @@ h3{
 }
 
 .about{
-	background: url(about.jpg) no-repeat center center fixed;
+	background: url(about2.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -138,7 +138,7 @@ h3{
 }
 
 .contact{
-	background: url(contact.jpg) no-repeat center center fixed;
+	background: url(contact2.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -181,6 +181,26 @@ h3{
 	float: left;
 	margin: 10px 20px 20px 20px;
 	
+	-webkit-border-radius: 0px 0px 0px 0px;
+	border-radius: 0px 0px 0px 0px;
+	
+	-webkit-box-shadow: 0px 1px 2px 1px rgba(133, 133, 133, .5);
+	box-shadow: 0px 1px 2px 1px rgba(133, 133, 133, .5);
+	
+	-moz-transform: scale(1) rotate(-2deg) translate(0px, 0px) skew(0deg, 0deg);
+	-webkit-transform: scale(1) rotate(-2deg) translate(0px, 0px) skew(0deg, 0deg);
+	-o-transform: scale(1) rotate(-2deg) translate(0px, 0px) skew(0deg, 0deg);
+	-ms-transform: scale(1) rotate(-2deg) translate(0px, 0px) skew(0deg, 0deg);
+	transform: scale(1) rotate(-2deg) translate(0px, 0px) skew(0deg, 0deg);
+}
+.pw-cover{
+	width: 200px;
+	float: left;
+	margin: 20px 20px 50px 40px;
+	
+	-webkit-border-radius: 0px 0px 0px 0px;
+	border-radius: 0px 0px 0px 0px;
+	
 	-webkit-box-shadow: 0px 1px 2px 1px rgba(133, 133, 133, .5);
 	box-shadow: 0px 1px 2px 1px rgba(133, 133, 133, .5);
 	
@@ -200,7 +220,7 @@ h3{
 .apparel-logo{
 float: left;
 width: 100px;	
-margin: -5px 10px 0 0;
+margin: -3px 10px 0 0;
 }
 
 #articles{
@@ -249,6 +269,10 @@ margin: -5px 10px 0 0;
 width: 270px;
 margin: 0 0 0 10px;
 }
+.product-content p{
+	margin: 10px 0;
+}
+
 
 .social-buttons{
 	border: 1px solid white;
@@ -256,6 +280,7 @@ margin: 0 0 0 10px;
 	background: rgba(255,255,255,.3);
 	width: 143px;
 	margin: 10px 0 10px 0;
+	box-shadow: 0 1px 3px #e4e4e4;
 }
 
 .fb-like{
@@ -275,7 +300,7 @@ margin: 0 0 0 10px;
 .fall-collage img{ 
 	-webkit-border-radius: 0px 0px 0px 0px;
 	border-radius: 0px 0px 0px 0px;
-	box-shadow: 0 1px 3px gray;
+	box-shadow: 0 1px 3px #cdcccc;
 }
 img.c1r1{
 	float:left; 
@@ -356,16 +381,6 @@ img.c3r3{
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;		
-}
-
-.drape-jacket{
-	width: 28%;
-	background: rgba(255,255,255,.5);
-	margin-top: 100px;
-	margin-left: 46%;
-	padding: 2%;
-	box-shadow: 0 2px 3px rgba(0,0,0,.2);
-	line-height: 25px;
 }
 
 .faux_leather_blazer{
@@ -466,3 +481,212 @@ img.c3r3{
 	background-size: cover;
 }
 
+/* Spring 2012 collection */
+
+.spring_collection{
+	background-image:url("brushed.png");
+}
+.spring-collage{
+	width: 800px;
+	margin: 0px;
+	position: relative;
+	height: 810px;
+}
+.spring-collage img{ 
+	-webkit-border-radius: 0px 0px 0px 0px;
+	border-radius: 0px 0px 0px 0px;
+	box-shadow: 0 1px 2px #cdcccc;
+}
+img.s-c1r1{
+	position: absolute;
+	left: 0;
+}
+img.s-c1r21{
+	position: absolute;
+	left: 0;
+	top: 185px;
+	width: 88px;
+}
+img.s-c1r22{
+	position: absolute;
+	top: 185px;
+	left: 97px;
+}
+img.s-c1r3{
+	position: absolute;
+	left: 0;
+	top: 530px;
+	width: 203px;
+}
+img.s-c2r1{
+	float:left; 
+	position: absolute;
+	left: 213px;
+}
+img.s-c2r2{
+	float:left; 
+	position: absolute;
+	left: 213px;
+	top: 265px;
+}
+img.s-c2r3{
+	float:left; 
+	position: absolute;
+	top: 532px;
+	left: 213px;
+}
+img.s-c2r4{
+	float:left; 
+	position: absolute;
+	top: 660px;
+	left: 213px;
+}
+img.s-c3r11{
+	float:left; 
+	position: absolute;
+	left: 390px;
+}
+img.s-c3r12{
+	float:left; 
+	position: absolute;
+	left: 512px;
+}
+img.s-c3r2{
+	float:left; 
+	position: absolute;
+	left: 390px;
+	top: 280px;
+	width: 230px;
+}
+img.s-c3r3{
+	float:left; 
+	position: absolute;
+	left: 390px;
+	top: 565px;
+}
+img.s-c4r1{
+	float:left; 
+	position: absolute;
+	left: 630px;
+}
+img.s-c4r2{
+	float:left; 
+	position: absolute;
+	left: 630px;
+	top: 270px;
+}
+img.s-c4r3{
+	float:left; 
+	position: absolute;
+	left: 630px;
+	top: 541px;
+}
+
+/* Spring Items */
+
+
+.embroidered_shirt{
+	background: url(S12_embroidered_shirt.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.seersucker_shirt_dress{
+	background: url(S12_Seersucker_Shirt_Dress.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.ruched_jacket{
+	background: url(s12_ruched_jacket.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.silk_trim_sweater{
+	background: url(S12_Silk_Trim_Sweater.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.printed_tunic{
+	background: url(S12_printed_tunic.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.spring_printed_jacket{
+	background: url(S12_Printed_Jacket.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.sleeveless_striped_dress{
+background: url(s12_sleeveless_striped_dress.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.linen_shirt_dress{
+	background: url(S12_linen_Shirt_Dress.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.back_button_detail_linen_tunic{
+	background: url(S12_back_button_detail_linen_tunic.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.cotton_eyelet_shirt{
+	background: url(S12_Cotton_Eyelet_Shirt.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.printed_floral_shirt{
+	background: url(S12_Printed_Floral_Shirt.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.printed_critter_button_up{
+	background: url(S12_Printed_Critter_Button_Up.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.single_button_jacket{
+	background: url(s12_single_button_jacket.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.single_button_linen_jacket{
+	background: url(s12_single_button_linen_jacket.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.pintuck_shirt{
+	background: url(s12_pintuck_shirt.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}

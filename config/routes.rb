@@ -21,10 +21,22 @@ PaperwhiteApp::Application.routes.draw do
 	match "printed-knit-top-pleated-skirt" =>	"fall2012#printed_knit_top_pleated_skirt"
 	match "novelty-blouse-printed-pant" =>	"fall2012#novelty_blouse_printed_pant"
 	match "novelty-pleat-shirt" =>	"fall2012#novelty_pleat_shirt"
-		
+	
+	
+	match "spring-2012" 												=> "spring2012#spring_collection"
+	match "embroidered-shirt"                   => "spring2012#embroidered_shirt"
+	match "ruched-jacket"                       => "spring2012#ruched_jacket"
+	match "seersucker-shirt-dress"              => "spring2012#seersucker_shirt_dress"
+	match "silk-trim-sweater"                   => "spring2012#silk_trim_sweater"
+	match "printed-tunic"                       => "spring2012#printed_tunic"
+	match "spring-printed-jacket"               => "spring2012#spring_printed_jacket"
+	match "sleeveless-striped-dress"            => "spring2012#sleeveless_striped_dress"
+	match "linen-shirt-dress"                   => "spring2012#linen_shirt_dress"
+	match "back-button-detail-linen-tunic"      => "spring2012#back_button_detail_linen_tunic"
+	match "cotton-eyelet-shirt"                 => "spring2012#cotton_eyelet_shirt"
+	match "printed-floral-shirt"                => "spring2012#printed_floral_shirt"
+	match "printed-critter-button-up"           => "spring2012#printed_critter_button_up"
+	match "single-button-jacket"                => "spring2012#single_button_jacket"
+	match "single-button-linen-jacket"          => "spring2012#single_button_linen_jacket"
+	match "pintuck-shirt"                       => "spring2012#pintuck_shirt"
 end
-	
-	
-	
-		
-
