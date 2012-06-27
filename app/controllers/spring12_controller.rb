@@ -1,4 +1,4 @@
-class Spring2012Controller < ApplicationController
+class Spring12Controller < ApplicationController
 	
 	def spring_collection
 	end

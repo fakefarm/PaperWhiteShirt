@@ -1,5 +1,15 @@
 ==Site Rebuild for Paper White Shirt
 
+=My Role:
+Paperwhite's site was outdated and needed a redesign from the ground up. They hired me to do the following;
+* Wireframes
+* Adobe photoshop mockups
+* HTML & CSS
+* Rails App for preparation of additional features, including blog & store locator
+
+=Hire me!
+I'm available for design & development. Contact me at dave [at] woodalls.me, [Visit my site!](http://dave.wodalls.me)
+
 =About Paperwhite:
 
 Paperwhite speaks to the spirited woman who has a flair for the irreverent. Its blend of clean silhouettes with clever details produces pieces that are both graceful and fun. Each season features refined fabrications and nuanced finishings that appeal to women of all ages, and offers tasteful versatility from day into evening. With an entry bridge retail price point, Paperwhite offers exceptional value for effortless style. Designed by Hinson Wu, a Parsons School of Design graduate and 15 year fashion veteran, the Paperwhite collection is also poised for phenomenal growth. Its launch in 2008 was met with strong commercial response, and is currently featured in over 200 specialty stores.
