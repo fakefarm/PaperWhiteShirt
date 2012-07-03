@@ -47,7 +47,7 @@ nav{
 	background: -ms-linear-gradient(top,  #54595b 0%,#28343b 100%); /* IE10+ */
 	background: linear-gradient(top,  #54595b 0%,#28343b 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54595b', endColorstr='#28343b',GradientType=0 ); /* IE6-9 */
-	width: 120px;
+	width: 130px;
 	line-height:40px;
 	padding: 20px;
 	box-shadow: 1px 1px 3px black;
@@ -99,9 +99,8 @@ a{
 }
 
 #collection-header li{
-	font-size: .9em;
-	list-style: disc;
-	margin-left:20px;
+	font-size: .8em;
+	margin-left:25px;
 }
 
 #collection-header .current{
