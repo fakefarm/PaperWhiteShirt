@@ -90,6 +90,10 @@ a{
 	color: #8C009D;
 }
 
+img a{
+  color: none;
+}
+
 #collection-header{
 	font-size: 1.1em;
 	font-weight: 500;
