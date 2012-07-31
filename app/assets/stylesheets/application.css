@@ -92,8 +92,8 @@ a{
 
 }
 
-img a{
-  color: none;
+img a {
+	border: none;
 }
 
 #collection-header{
