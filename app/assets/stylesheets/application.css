@@ -89,10 +89,10 @@ nav a:hover{
 }
 
 a{
-
+ border: none;
 }
 
-img a {
+img {
 	border: none;
 }
 
