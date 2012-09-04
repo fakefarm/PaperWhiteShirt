@@ -13,6 +13,9 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+gem 'jquery-rails'
+
+
 group :development do
 	gem 'quiet_assets'
 	gem 'thin'
@@ -20,3 +23,4 @@ end
 
 gem 'bourbon'
 gem 'unicorn'
+gem 'newrelic_rpm'
