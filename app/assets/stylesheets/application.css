@@ -27,7 +27,7 @@
 	width: 80%;
 	margin: 0 auto; 
 	overflow:auto;
-	min-width: 900px;
+	min-width: 1000px;
 }
 
 #logo{
@@ -92,7 +92,7 @@ a{
  border: none;
 }
 
-img {
+img{
 	border: none;
 }
 
