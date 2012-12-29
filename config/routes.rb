@@ -7,7 +7,27 @@ PaperwhiteApp::Application.routes.draw do
 	match "/stores" => "pages#stores"
 	match	"/designer" => "pages#designer"
 	
-	
+# Spring 2013
+	match "/spring-2013" => "spring13#collection"
+	match "drop-shoulder-sweater-and-wide-leg-pant" => "spring13#drop_shoulder_sweater_and_wide_leg_pant"	
+	match "3-4-slv-block-linen-tunic" => "spring13#three-quarter-slv-block-linen-tunic"
+	match "3-4-slv-printed-blouse-and-stretch-cropped-pant" => "spring13#three_quarter_slv_printed_blouse_and_stretch_cropped_pant"
+	match "bib-front-dress-and-bamboo-buckle-belt" => "spring13#bib-front-dress-and-bamboo-buckle-belt"
+	match "clip-dot-tank-and-cropped-pant" => "spring13#clip-dot-tank-and-cropped-pant"
+	match "crop-jacket-and-floral-print-silk-top" => "spring13#crop-jacket-and-floral-print-silk-top"
+	match "drop-shoulder-sweater-and-wide-leg-pant" => "spring13#drop_shoulder_sweater_and_wide_leg_pant"
+	match "elbow-sleeve-shirt-dress" => "spring13#elbow-sleeve-shirt-dress"
+	match "embroidered-linen-pant" => "spring13#embroidered-linen-pant"
+	match "knit-tank-dress-and-skinny-belt-and-waterfall-cardigan" => "spring13#knit-tank-dress-and-skinny-belt-and-waterfall-cardigan"
+	match "linen-jacket-and-tank-top-and-slim-legging" => "spring13#linen-jacket-and-tank-top-and-slim-legging"
+	match "roll-tab-boyfriend-shirt-and-denim-trousers" => "spring13#roll-tab-boyfriend-shirt-and-denim-trousers"
+	match "safari-shirt-jacket-and-printed-capri-pant" => "spring13#safari-shirt-jacket-and-printed-capri-pant"
+	match "silk-tank-top-and-clip-dot-scarf" => "spring13#silk-tank-top-and-clip-dot-scarf"
+	match "silk-tank-top-and-cropped-pant" => "spring13#silk-tank-top-and-cropped-pant"
+	match "sleevless-hi-lo-printed-silk-shirt" => "spring13#sleevless-hi-lo-printed-silk-shirt"
+	match "striped-sequin-dress-and-waterfall-cardigan" => "spring13#striped-sequin-dress-and-waterfall-cardigan"
+
+# Fall 2012
 	match "/fall-2012" => "fall2012#collection"
 	match "/drape-front-jacket" =>  "fall2012#drape_front_jacket"
 	match "/faux-leather-blazer" => "fall2012#faux_leather_blazer"
@@ -23,7 +43,7 @@ PaperwhiteApp::Application.routes.draw do
 	match "novelty-pleat-shirt" =>	"fall2012#novelty_pleat_shirt"
 	match "ls-printed-shirt" => "fall2012#ls_printed_shirt"
 	
-	
+	# Spring 2012
 	match "spring-2012" 												=> "spring12#spring_collection"
 	match "embroidered-shirt"                   => "spring12#embroidered_shirt"
 	match "ruched-jacket"                       => "spring12#ruched_jacket"
