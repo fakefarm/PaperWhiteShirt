@@ -2,6 +2,9 @@ class PagesController < ApplicationController
 	
 	def landing
 	end
+
+	def home_alt
+	end
 	
 	def designer		
 	end

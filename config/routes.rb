@@ -6,6 +6,7 @@ PaperwhiteApp::Application.routes.draw do
 	match "/press" => "pages#press"
 	match "/stores" => "pages#stores"
 	match	"/designer" => "pages#designer"
+	match	"/home2" => "pages#home_alt"
 	
 # Spring 2013
 	match "/spring-2013" => "spring13#collection"

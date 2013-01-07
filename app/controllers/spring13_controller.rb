@@ -45,7 +45,7 @@ class Spring13Controller < ApplicationController
   def silk_tank_top_and_clip_dot_scarf 
   end
 
-  def silk_tank_top_and_cropped_pant 
+  def silk_tank_top_and_cropped_pant
   end
 
   def sleevless_hi_lo_printed_silk_shirt 
