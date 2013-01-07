@@ -7,6 +7,7 @@
 	list-style: none;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
+	color: black;
 }
 
 #container{
@@ -123,6 +124,14 @@ h3{
 	background-size: cover;
 }
 
+.home_alt{
+	background: url(home_alt.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
 .about{
 	background: url(about3.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
@@ -144,8 +153,7 @@ h3{
 #about-content p{
 	line-height: 25px;
 	text-align: justify;
-	padding: 5px 5px;
-}
+	padding: 5px 5px}
 
 .contact{
 	background: url(contact3.jpg) no-repeat center center fixed;
@@ -513,7 +521,7 @@ img.c3r4{
 	width: 800px;
 	margin: 0px;
 	position: relative;
-	height: 810px;
+	height: 1010px;
 }
 
 .spring-collage a{
@@ -724,8 +732,110 @@ background: url(s12_sleeveless_striped_dress.jpg) no-repeat center center fixed;
 }
 
 
+// Spring 2013 Collection
+
+img.s13-c1r1{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 130px;
+}
+img.s13-c1r2{
+	position: absolute;
+	left: 0;
+	top: 265px;
+	width: 130px;
+}
+img.s13-c1r3{
+	position: absolute;
+	top: 615px;
+	left: 0px;
+	width: 130px;
+}
+img.s13-c2r1{
+	position: absolute;
+	left: 142px;
+	top: 0px;
+	width: 149px;
+}
+img.s13-c2r2{
+	float:left;
+	position: absolute;
+	left: 142px;
+	width: 149px;
+	top: 335px;
+}
+img.s13-c2r3{
+	float:left;
+	position: absolute;
+	left: 142px;
+	top: 588px;
+	width: 149px;
+}
+img.s13-c3r1{
+	float:left;
+	position: absolute;
+	top: 0px;
+	left: 306px;
+}
+img.s13-c3r2{
+	float:left;
+	position: absolute;
+	top: 335px;
+	left: 306px;
+}
+img.s13-c3r3{
+	float:left;
+	position: absolute;
+	left: 306px;
+	top: 590px;
+}
+img.s13-c4r1{
+	float:left;
+	position: absolute;
+	left: 435px;
+}
+img.s13-c4r2{
+	float:left;
+	position: absolute;
+	left: 435px;
+	top: 270px;
+	width: 120px;
+}
+img.s13-c4r3{
+	float:left;
+	position: absolute;
+	left: 435px;
+	top: 505px;
+}
+img.s13-c5r1{
+	float:left;
+	position: absolute;
+	left: 570px;
+}
+img.s13-c5r2{
+	float:left;
+	position: absolute;
+	left: 570px;
+	top: 270px;
+}
+img.s13-c5r31{
+	float:left;
+	position: absolute;
+	left: 570px;
+	top: 613px;
+}
+
+img.s13-c5r32{
+	float:left;
+	position: absolute;
+	left: 669px;
+	top: 613px;
+}
+
 
 // Spring 2013 Items
+
 
 .three-quarter-slv-block-linen-tunic{
 	background: url(151686.jpg) no-repeat center center fixed;
